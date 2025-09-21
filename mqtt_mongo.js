@@ -12,7 +12,7 @@ mq = mqtt.connect(broker, {
 });
 
 //tilataan oikea topic
-mq.subscribe('automaatio/#');
+mq.subscribe('automaatio/Adam123');
 
 //liitytään välityspalvelimeen
 mq.on('connect', function(){
